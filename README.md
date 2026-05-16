@@ -1,5 +1,5 @@
 # Shmetroff Utils
-My own java lib with my auxiliary tools and utils
+My own java lib with helper tools and utils
 
 Structure:
 
@@ -12,7 +12,7 @@ ru.shmetroff.com
 └── tools/
     ├── Addr.java
     │   ├── + [s] get(Object): int                # returns hash code of the Object (addres in RAM)
-    │   └── + [s] hex(Object): String             # returns hash code of the Object (addres in RAM)
+    │   └── + [s] hex(Object): String             # returns hash code of the Object (addres in RAM) in a 0x hex format
     │
     ├── ByteArray.java
     │   ├── + [s] printHex(byte[], String): void  # prints array of byte in a beautiful hex table with offsets and chars 
@@ -23,7 +23,7 @@ ru.shmetroff.com
     ├── RndStr.java
     │   ├── + [s] gen(int):   String              # returns random String with specified legnth (parameter)
     │   ├── + [s] gens(int):  String              # like above but uses Streams
-    │   ├── + [s] gen(int):   String              # returns random String with specified legnth (parameter)
+    │   ├── + [s] gensp(int): String              # like above but uses Parallel Streams
     │
     ├── StopWatch.java
     │   ├── + start(String, boolean): void        # starts StopWatch, set name & debug flag (prints header with name if debug is true)

@@ -3,7 +3,15 @@ package ru.shmetroff.com.tools;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
+/**
+ * Helper class for print array of bytes like hex editor
+ * @author Alex Alejandro Shmetroff
+ * @date 15.05.2026
+ */
 public class ByteArray {
+    /**
+     * Only for test
+     */
     public static void main(String[] args) {
         // Get the default Charset object
         Charset defaultCharset = Charset.defaultCharset();
@@ -42,6 +50,13 @@ public class ByteArray {
         System.out.println(0x0A);
     }
 
+    /**
+     * Prints array of byte in a beautiful hex table with offsets and chars
+     * @param buffer
+     *        Byte array for print
+     * @param charsetName
+     *        Char set of byte array
+     */
     public static void printHex(byte[] buffer, String charsetName) {
         StringBuilder result = new StringBuilder();
         StringBuilder text = new StringBuilder();
@@ -105,6 +120,11 @@ public class ByteArray {
         System.out.println(result);
     }
 
+    /**
+     * Like above but with defaultCharset
+     * @param buffer
+     *        Byte array for print
+     */
     public static void printHex(byte[] buffer) {
         printHex(buffer, Charset.defaultCharset().name());
     }
