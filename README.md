@@ -22,7 +22,7 @@ ru.shmetroff.com
     │
     ├── RndStr.java
     │   ├── + [s] gen(int):   String              # returns random String with specified legnth (parameter)
-    │   ├── + [s] gens(int):  String              # like above but use Streams
+    │   ├── + [s] gens(int):  String              # like above but uses Streams
     │   ├── + [s] gen(int):   String              # returns random String with specified legnth (parameter)
     │
     ├── StopWatch.java
