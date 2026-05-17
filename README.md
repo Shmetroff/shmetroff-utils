@@ -16,7 +16,7 @@ ru.shmetroff.com
     │
     ├── ByteArray.java
     │   ├── + [s] printHex(byte[], String): void  # prints array of byte in a beautiful hex table with offsets and chars 
-    │   └── + [s] printHex(byte[], String): void  # like above but with defaultCharset
+    │   └── + [s] printHex(byte[]):         void  # like above but with defaultCharset
     │
     ├── Order.java                                # enum for indicate directions: DIRECT, REVERSE
     │
@@ -27,7 +27,7 @@ ru.shmetroff.com
     │
     ├── StopWatch.java
     │   ├── + start(String, boolean): void        # starts StopWatch, set name & debug flag (prints header with name if debug is true)
-    │   ├── + start(String, boolean): void        # like above but debug always is false (never prints header)
+    │   ├── + start(String):          void        # like above but debug always is false (never prints header)
     │   └── + stop():                 void        # stops StopWatch, print time in MS with name
     │
     └── Str.java
