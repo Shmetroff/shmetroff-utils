@@ -5,12 +5,14 @@ import java.util.Optional;
 
 /**
  * Helper class for work with Cookie
+ *
  * @author Alex Alejandro Shmetroff
  * @date 15.05.2026
  */
 public class Cookies {
     /**
      * Prints all Cookie attributes in a human-friendly format
+     *
      * @param c
      *        Cookie to print
      * @return String with the Cookie in a human-friendly format

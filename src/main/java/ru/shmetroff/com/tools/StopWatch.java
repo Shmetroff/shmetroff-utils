@@ -2,6 +2,7 @@ package ru.shmetroff.com.tools;
 
 /**
  * Helper class for keeping track of execution time
+ *
  * @author Alex Alejandro Shmetroff
  * @date 15.05.2026
  */
@@ -12,6 +13,7 @@ public class StopWatch {
 
     /**
      * Starts StopWatch, set name & debug flag (prints header with name if debug is true)
+     *
      * @param name
      *        Name of StopWatch
      * @param debug
@@ -26,6 +28,7 @@ public class StopWatch {
 
     /**
      * Like above but debug always is false (never prints header)
+     *
      * @param name
      *        Name of StopWatch
      */
@@ -35,6 +38,7 @@ public class StopWatch {
 
     /**
      * Stops StopWatch, print time in MS with name.
+     *
      * If debug is true - prints new line at the very end after everything.
      */
     public void stop() {

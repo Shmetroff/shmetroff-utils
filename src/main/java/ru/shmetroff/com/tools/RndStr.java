@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Helper class for creating random Strings
+ *
  * @author Alex Alejandro Shmetroff
  * @date 15.05.2026
  */
@@ -63,6 +64,7 @@ public class RndStr {
 
     /**
      * Returns random String with specified legnth
+     *
      * @param length
      *        Length of needed random String
      * @return Needed random String
@@ -79,6 +81,7 @@ public class RndStr {
 
     /**
      * Like above but uses Streams
+     *
      * @param length
      *        Length of needed random String
      * @return Needed random String
@@ -94,6 +97,7 @@ public class RndStr {
 
     /**
      * Like above but uses Parallel Streams
+     *
      * @param length
      *        Length of needed random String
      * @return Needed random String

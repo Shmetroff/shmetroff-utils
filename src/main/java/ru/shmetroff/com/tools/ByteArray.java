@@ -5,6 +5,7 @@ import java.nio.charset.Charset;
 
 /**
  * Helper class for print array of bytes like hex editor
+ *
  * @author Alex Alejandro Shmetroff
  * @date 15.05.2026
  */
@@ -52,6 +53,7 @@ public class ByteArray {
 
     /**
      * Prints array of byte in a beautiful hex table with offsets and chars
+     *
      * @param buffer
      *        Byte array for print
      * @param charsetName
@@ -122,6 +124,7 @@ public class ByteArray {
 
     /**
      * Like above but with defaultCharset
+     *
      * @param buffer
      *        Byte array for print
      */

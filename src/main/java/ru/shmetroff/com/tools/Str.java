@@ -2,12 +2,14 @@ package ru.shmetroff.com.tools;
 
 /**
  * Helper class for work with some String function (only in Java 8 or earlier)
+ *
  * @author Alex Alejandro Shmetroff
  * @date 15.05.2026
  */
 public class Str {
     /**
      * Repeats specified String specified times
+     *
      * @param s
      *        String needed to repeat
      * @param count
