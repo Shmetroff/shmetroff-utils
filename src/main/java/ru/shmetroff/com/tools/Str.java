@@ -10,10 +10,8 @@ public class Str {
     /**
      * Repeats specified String specified times
      *
-     * @param s
-     *        String needed to repeat
-     * @param count
-     *        Times to repeat
+     * @param s     String needed to repeat
+     * @param count Times to repeat
      * @return Repeated String
      */
     public static String repeat(String s, int count) {

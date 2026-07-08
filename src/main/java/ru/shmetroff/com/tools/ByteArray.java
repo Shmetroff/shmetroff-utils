@@ -54,10 +54,8 @@ public class ByteArray {
     /**
      * Prints array of byte in a beautiful hex table with offsets and chars
      *
-     * @param buffer
-     *        Byte array for print
-     * @param charsetName
-     *        Char set of byte array
+     * @param buffer      Byte array for print
+     * @param charsetName Char set of byte array
      */
     public static void printHex(byte[] buffer, String charsetName) {
         StringBuilder result = new StringBuilder();
@@ -125,8 +123,7 @@ public class ByteArray {
     /**
      * Like above but with defaultCharset
      *
-     * @param buffer
-     *        Byte array for print
+     * @param buffer Byte array for print
      */
     public static void printHex(byte[] buffer) {
         printHex(buffer, Charset.defaultCharset().name());

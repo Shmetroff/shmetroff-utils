@@ -10,8 +10,7 @@ public class Addr {
     /**
      * Returns hash code of the Object (addres in RAM)
      *
-     * @param o
-     *        Object which hash code (addres) needed
+     * @param o Object which hash code (addres) needed
      * @return Hash code (addres)
      */
     public static int get(Object o) {
@@ -21,8 +20,7 @@ public class Addr {
     /**
      * Returns hash code of the Object (addres in RAM) in a 0x hex format
      *
-     * @param o
-     *        Object which hash code (addres) needed
+     * @param o Object which hash code (addres) needed
      * @return Hash code (addres) in a 0x hex format
      */
     public static String hex(Object o) {

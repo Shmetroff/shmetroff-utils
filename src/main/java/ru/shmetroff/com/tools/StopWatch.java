@@ -14,10 +14,8 @@ public class StopWatch {
     /**
      * Starts StopWatch, set name & debug flag (prints header with name if debug is true)
      *
-     * @param name
-     *        Name of StopWatch
-     * @param debug
-     *        Flag for print header & new line after stop
+     * @param name  Name of StopWatch
+     * @param debug Flag for print header & new line after stop
      */
     public void start(String name, boolean debug) {
         this.name = name;
@@ -29,8 +27,7 @@ public class StopWatch {
     /**
      * Like above but debug always is false (never prints header)
      *
-     * @param name
-     *        Name of StopWatch
+     * @param name Name of StopWatch
      */
     public void start(String name) {
         start(name, false);
@@ -38,7 +35,7 @@ public class StopWatch {
 
     /**
      * Stops StopWatch, print time in MS with name.
-     *
+     * <p>
      * If debug is true - prints new line at the very end after everything.
      */
     public void stop() {

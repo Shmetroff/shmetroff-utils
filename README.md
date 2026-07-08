@@ -7,7 +7,8 @@ Structure:
 ru.shmetroff.com
 ├── http/
 │   └── Cookies.java
-│       └── + [s] print(Cookie): void             # prints all Cookie attributes in a human-friendly format 
+│       ├── + [s] print(Cookie, boolean): void    # prints all Cookie attributes in a human-friendly format 
+│       └── + [s] print(Cookie):          void    # like above but always prints in short format 
 │
 └── tools/
     ├── Addr.java

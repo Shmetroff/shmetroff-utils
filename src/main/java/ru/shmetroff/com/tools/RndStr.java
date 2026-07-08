@@ -65,8 +65,7 @@ public class RndStr {
     /**
      * Returns random String with specified legnth
      *
-     * @param length
-     *        Length of needed random String
+     * @param length Length of needed random String
      * @return Needed random String
      */
     public static String gen(int length) {
@@ -82,8 +81,7 @@ public class RndStr {
     /**
      * Like above but uses Streams
      *
-     * @param length
-     *        Length of needed random String
+     * @param length Length of needed random String
      * @return Needed random String
      */
     public static String gens(int length) {
@@ -98,8 +96,7 @@ public class RndStr {
     /**
      * Like above but uses Parallel Streams
      *
-     * @param length
-     *        Length of needed random String
+     * @param length Length of needed random String
      * @return Needed random String
      */
     public static String gensp(int length) {
