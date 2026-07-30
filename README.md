@@ -10,6 +10,10 @@ ru.shmetroff.com
 │       ├── + [s] print(Cookie, boolean): void    # prints all Cookie attributes in a human-friendly format 
 │       └── + [s] print(Cookie):          void    # like above but always prints in short format 
 │
+├── spring/
+│   └── BindingResultUtl.java
+│       └── + errors(BindingResult): String       # returns concatenated string with all errors dilimited by semicolon
+│
 └── tools/
     ├── Addr.java
     │   ├── + [s] get(Object): int                # returns hash code of the Object (addres in RAM)
