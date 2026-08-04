@@ -11,7 +11,7 @@ ru.shmetroff.com
 │       └── + [s] print(Cookie):          void    # like above but always prints in short format 
 │
 ├── spring/
-│   └── BindingResultUtl.java
+│   └── BindingResultUtil.java
 │       └── + errors(BindingResult): String       # returns concatenated string with all errors dilimited by semicolon
 │
 └── tools/

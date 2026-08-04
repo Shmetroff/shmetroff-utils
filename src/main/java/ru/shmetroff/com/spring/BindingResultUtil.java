@@ -9,7 +9,7 @@ import org.springframework.validation.FieldError;
  * @author Alex Alejandro Shmetroff
  * @date 30.07.2026
  */
-public class BindingResultUtl {
+public class BindingResultUtil {
     /**
      * Returns concatenated string with all errors dilimited by semicolon from bindingResult
      *
